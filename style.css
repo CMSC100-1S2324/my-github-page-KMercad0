@@ -25,6 +25,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .project-container{
@@ -32,7 +33,9 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding:10px
+    padding:10px;
+    
+    
 }
 
 .nav-bar{
@@ -44,6 +47,7 @@ body{
     padding: 20px;
     border: 2px solid black;
     
+    
 }
 
 
@@ -54,6 +58,7 @@ body{
     justify-content: center;
     align-items: center;
     border: 5px solid #000;
+
 }
 
 .logo{
@@ -75,14 +80,17 @@ body{
 .projphoto{
     height: 400px;
     width: 320px;
+    
 }
 .fphoto{
     background-color: #c5dac1;
+    box-shadow: 5px 10px;
 }
 
 .skillbphoto{
     height: 500px;
     width: 550px;
+   
 }
 
 .myphoto{
@@ -94,7 +102,22 @@ body{
     flex-flow: column;
     
 }
+
+.footer-info{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
 h1{
+    font-family:sans-serif;
     text-align: center;
     font-size: 36px;
+}
+
+a{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family:Verdana;
 }
